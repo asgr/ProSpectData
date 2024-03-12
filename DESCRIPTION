@@ -1,0 +1,13 @@
+Package: ProSpectData
+Type: Package
+Title: ProSpect Core Data
+Version: 1.0.0
+Author: Aaron Robotham
+Maintainer: Aaron Robotham <aaron.robotham@uwa.edu.au>
+Description: Core data that is required by the ProSpect spectral energy distribution R package.
+License: LGPL-3
+Depends: R (>= 3.5.0)
+Suggests: ProSpect
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: gzip
