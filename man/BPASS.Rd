@@ -6,6 +6,15 @@ BPASS v2.2.1 Binaries Stellar Library
 }
 \description{
 This is a reformatted collection of all the key informtion for the BPASS v2.2.1 models (binary star, Chabrier IMF up to 300 Msol variant). This gives enough information to generate generic spectra for a target metallicity and star formation history.
+
+	Info: The low resolution BPASS v2.2.1 SSP.\cr
+	Isochrones: STARS\cr
+	IMF: Chabrier out to 300 Msol binary variant\cr
+	Z Range: 1e-5 - 4e-2 [13]\cr
+	Wave Samp: Min / Med / Max sampling 1 / 20 / 2e5 Ang [1221]\cr
+	Wave Range: 91 - 1.6e6 Ang (160 Micron)\cr
+	Wave Res: Can only be used for broadband work (very coarse sampling), so dispersion is not relevant.\cr
+	Cite: Stanway and Eldridge, 2018, MNRAS, 479, 75\cr
 }
 \usage{data("BPASS")}
 \format{

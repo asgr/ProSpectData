@@ -6,6 +6,16 @@ E-MILES High Resolution Models
 }
 \description{
 This is a reformatted collection of all the key informtion for the high resolution E-MILES models. This gives enough information to generate generic spectra for a target metallicity and star formation history.
+
+  Info: The high resolution E-MILES SSP.\cr
+	Isochrones: BaSTI\cr
+	IMF: Chabrier\cr
+	Z Range: 1e-4 - 4e-2 [12]\cr
+	Wave Samp: Constant sampling 0.9 Ang [53689]\cr
+	Range: 1680 - 5e4 Ang (~5 Micron)\cr
+	Wave Res: The effective resolution (dispersion broadening) is 2.5 Angstroms (roughly 125 km/s at 6,000 Ang).\cr
+	Cite: Vazdekis et al., 2016, MNRAS, 463, 3409\cr
+	Note: This does not extend blue enough (far UV) for FUV based emission line energy balance to work (emission type must be 'SFR').
 }
 \usage{data("EMILES")}
 
@@ -126,6 +136,8 @@ List of 8\cr
 }
 \details{
 There are 12 metallicities (as given in \option{Z}), 53 age steps per population and 53689 spectral fluxes. Everything has been computed for a Chabrier IMF and the BaSTI isochrones.
+
+This does not extend blue enough (far UV) for FUV based emission line energy balance to work (emission type must be 'SFR').
 }
 \source{
 http://miles.iac.es/

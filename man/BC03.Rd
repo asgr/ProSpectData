@@ -8,6 +8,29 @@ GALAXEV Bruzual & Charlot 2003 Models (GALEXev)
 }
 \description{
 This is a reformatted collection of all the key informtion for the low/high resolution BC03 models (technically named GALEXev). This gives enough information to generate generic spectra for a target metallicity and star formation history.
+
+BC03lr \cr
+ \cr
+	Info: The low resolution version of the classic BC03/GALEXev SSP.\cr
+	Isochrones: 1994 Padova\cr
+	IMF: Chabrier\cr
+	Z Range: 1e-4 - 5e-2 [6]\cr
+	Wave Samp: Min / Med / Max sampling 1 / 20 / 2e5 Ang [1221]\cr
+	Wave Range: 91 - 1.6e6 Ang (160 Micron)\cr
+	Wave Res: BC03lr can only be used for broadband work (very coarse sampling), so dispersion is not relevant.\cr
+	Cite: Bruzual and Charlot, 2003, MNRAS, 344, 1000\cr
+	Note: Used in most published ProSpect work to date (e.g. Robotham, Bellstedt, Thorne).\cr
+
+BC03hr \cr
+ \cr
+	Info: The high resolution version of the classic BC03/GALEXev SSP.\cr
+	Isochrones: 1994 Padova\cr
+	IMF: Chabrier\cr
+  Z Range: 1e-4 - 5e-2 [6]\cr
+	Wave Samp: Min / Med / Max sampling 1 / 1 / 2e5 Ang [6990]\cr
+	Wave Range: 91 - 1.6e6 Ang (160 Micron)\cr
+	Wave Res: The effective resolution (dispersion broadening) is 3 Angstroms (roughly 150 km/s at 6,000 Ang).\cr
+	Cite: Bruzual and Charlot, 2003, MNRAS, 344, 1000
 }
 \usage{
 data("BC03lr")
@@ -85,7 +108,7 @@ List of 8\cr
   .. ..$ SMtot : num [1:221] 1 1 1 1 1 1 1 1 1 1 ...\cr
   .. ..$ SFR   : num [1:221] 1 0 0 0 0 0 0 0 0 0 ...\cr
   .. ..$ SMrem : num [1:221] 0 0 0 0 0 0 0 0 0 0 ...\cr
-  
+
 The full high resolution format is:\cr
 \cr
 List of 8\cr
