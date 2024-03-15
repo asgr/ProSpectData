@@ -8,9 +8,11 @@ E-MILES High Resolution Models
 This is a reformatted collection of all the key informtion for the high resolution E-MILES models. This gives enough information to generate generic spectra for a target metallicity and star formation history.
 
   Info: The high resolution E-MILES SSP.\cr
-	Isochrones: BaSTI\cr
+	Isochrones: BaSTI / Padova\cr
+	Atmospheres: MILES / BaSeL\cr
 	IMF: Chabrier\cr
 	Z Range: 1e-4 - 4e-2 [12]\cr
+	Age Range: 30 Myr - 14 Gyrs [51]\cr
 	Wave Samp: Constant sampling 0.9 Ang [53689]\cr
 	Range: 1680 - 5e4 Ang (~5 Micron)\cr
 	Wave Res: The effective resolution (dispersion broadening) is 2.5 Angstroms (roughly 125 km/s at 6,000 Ang).\cr

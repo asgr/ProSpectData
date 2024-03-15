@@ -12,9 +12,11 @@ This is a reformatted collection of all the key informtion for the low/high reso
 BC03lr \cr
  \cr
 	Info: The low resolution version of the classic BC03/GALEXev SSP.\cr
-	Isochrones: 1994 Padova\cr
+	Isochrones: Padova 1994 / Geneva\cr
+	Atmospheres: BaSeL / STELIB / Pickles\cr
 	IMF: Chabrier\cr
 	Z Range: 1e-4 - 5e-2 [6]\cr
+	Age Range: 0 - 20 Gyrs [221]\cr
 	Wave Samp: Min / Med / Max sampling 1 / 20 / 2e5 Ang [1221]\cr
 	Wave Range: 91 - 1.6e6 Ang (160 Micron)\cr
 	Wave Res: BC03lr can only be used for broadband work (very coarse sampling), so dispersion is not relevant.\cr
@@ -24,9 +26,11 @@ BC03lr \cr
 BC03hr \cr
  \cr
 	Info: The high resolution version of the classic BC03/GALEXev SSP.\cr
-	Isochrones: 1994 Padova\cr
+	Isochrones: Padova 1994 / Geneva\cr
+	Atmospheres: BaSeL / STELIB / Pickles\cr
 	IMF: Chabrier\cr
   Z Range: 1e-4 - 5e-2 [6]\cr
+  Age Range: 0 - 20 Gyrs [221]\cr
 	Wave Samp: Min / Med / Max sampling 1 / 1 / 2e5 Ang [6990]\cr
 	Wave Range: 91 - 1.6e6 Ang (160 Micron)\cr
 	Wave Res: The effective resolution (dispersion broadening) is 3 Angstroms (roughly 150 km/s at 6,000 Ang).\cr
