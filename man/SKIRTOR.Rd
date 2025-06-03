@@ -2,9 +2,6 @@
 \name{SKIRTOR}
 \alias{SKIRTOR}
 \title{SKIRTOR AGN Template}
-\format{
-A data frame containing the SKIRTOR model.
-}
 \source{
 Stalevski et al, 2012, MNRAS, 420, 2756 \cr
 Stalevski et al, 2016, MNRAS, 458, 2288
@@ -12,6 +9,7 @@ Stalevski et al, 2016, MNRAS, 458, 2288
 \usage{data("SKIRTOR")}
 
 \format{
+A data frame containing the SKIRTOR model.
   The format is:\cr
 List of 10\cr
  $ Wave  : num [1:132] 10.00000 11.48154 13.18257 15.13561 17.37801 ...\cr
