@@ -21,16 +21,16 @@ List of 10\cr
   .. ..$ : chr [1:8] 10 20 30 40 50 60 70 80\cr
   .. ..$ : chr [1:3] 10 20 30\cr
   .. ..$ : chr [1:1] 0.97\cr
-  .. ..$ : chr [1:10] 90 80 70 60 50 40 30 20 10 0\cr
+  .. ..$ : chr [1:10] 0 10 20 30 40 50 60 70 80 90\cr
   .. ..$ : NULL\cr
- $ params: chr [1:6] "ta"  "p"   "q"   "oa"  "rm"  "Mcl" "an"\cr
+ $ params: chr [1:6] "ta"  "p"   "q"   "ct"  "rm"  "Mcl" "an"\cr
  $ ta    : num [1:3] 3  5  7  9\cr
  $ p     : num [1:3] 0.0 0.5 1.0 1.5\cr
  $ q     : num [1:4] 0.0 0.5 1.0 1.5\cr
- $ oa    : num [1:5] 10 20 30 40 50 60 70 80\cr
+ $ ct    : num [1:5] 20 40 60 80 100 120 140 160\cr
  $ rm    : num [1:8] 10 20 30\cr
  $ Mcl   : num [1:5] 0.97\cr
- $ an    : num [1:10] 90 80 70 60 50 40 30 20 10 0\cr
+ $ an    : num [1:10] 0 10 20 30 40 50 60 70 80 90\cr
 }
 
 \description{
@@ -49,8 +49,8 @@ Numeric scalar; Index for the radial density gradient in the SKIRTOR AGN model.
   \item{q}{
 Numeric scalar; Index for the angular density gradient in the SKIRTOR AGN model.
   }
-  \item{oa}{
-Numeric scalar; Angle from equator to edge of of the torus in the SKIRTOR AGN model.
+  \item{ct}{
+Numeric scalar; Opening angle of torus in degrees.
   }
   \item{rm}{
 Numeric scalar; Ratio of outer radius to inner radius in the SKIRTOR AGN model.
