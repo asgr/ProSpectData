@@ -8,6 +8,7 @@ Description: Core data that is required by the ProSpect spectral energy distribu
 License: LGPL-3
 Depends: R (>= 3.5.0)
 Suggests: ProSpect
+Remotes: asgr/ProSpect
 Encoding: UTF-8
 LazyData: true
 LazyDataCompression: gzip
