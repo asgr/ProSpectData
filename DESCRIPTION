@@ -1,7 +1,8 @@
 Package: ProSpectData
 Type: Package
 Title: ProSpect Core Data
-Version: 1.1.0
+Version: 1.1.1
+Date: 2026-02-26
 Author: Aaron Robotham
 Maintainer: Aaron Robotham <aaron.robotham@uwa.edu.au>
 Description: Core data that is required by the ProSpect spectral energy distribution R package.
