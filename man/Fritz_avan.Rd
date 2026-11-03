@@ -1,5 +1,5 @@
-\name{Fritz_avan}
-\alias{Fritz_avan}
+\name{Fritz_anav}
+\alias{Fritz_anav}
 \docType{data}
 \title{
 Fritz 2006 AGN Template Data
@@ -7,21 +7,20 @@ Fritz 2006 AGN Template Data
 \description{
 The full extended Fritz 2006 AGN model as per Feltre 2012, for the averaged viewing angle. This is then interpolated by \code{AGNinterp} to create arbitrary AGN at non gridded points.
 }
-\usage{data("Fritz_avan")}
+\usage{data("Fritz_anav")}
 \format{
   The format is:\cr
-List of 9\cr
+List of 8\cr
  $ Wave  : num [1:178] 10 11.2 12.6 14.1 15.8 ...\cr
- $ Aspec   : num [1:3, 1:4, 1:5, 1:8, 1:5, 1:10, 1:178] 0.0672 0.0698 0.0727 0.064 0.064 ...\cr
-  ..- attr(*, "dimnames")=List of 7\cr
+ $ Aspec   : num [1:3, 1:4, 1:5, 1:8, 1:5, 1:178] 0.0672 0.0698 0.0727 0.064 0.064 ...\cr
+  ..- attr(*, "dimnames")=List of 6\cr
   .. ..$ : chr [1:3] "60" "100" "140"\cr
   .. ..$ : chr [1:4] "0" "2" "4" "6"\cr
   .. ..$ : chr [1:5] "-1" "-0.75" "-0.5" "-0.25" ...\cr
   .. ..$ : chr [1:8] "0.1" "0.3" "0.6" "1" ...\cr
   .. ..$ : chr [1:5] "10" "30" "60" "100" ...\cr
-  .. ..$ : chr [1:10] "0" "10" "20" "30" ...\cr
   .. ..$ : NULL\cr
- $ params: chr [1:6] "ct" "al" "be" "ta" ...\cr
+ $ params: chr [1:5] "ct" "al" "be" "ta" ...\cr
  $ ct    : num [1:3] 60 100 140\cr
  $ al    : num [1:4] 0 2 4 6\cr
  $ be    : num [1:5] -1 -0.75 -0.5 -0.25 0\cr
@@ -43,8 +42,8 @@ Each AGN model has been normalised so that the total luminosity fo the source AG
 \item{Wave}{
   The wavelength in Angstroms [178 elements].
 }
-\item{Aspec}{
-  7 dimensional array containing (in order) dimension of \option{ct} (opening angle of torus in degrees); \option{al} (gamma dust parameter); \option{be} (beta dust parameter); \option{ta} (optical depth tau); \option{rm} (outer to inner torus radius ratio); \option{an} (angle of observation in degrees, where 0 is edge on with torus, and 90 is polar aligned), and the final column is the normalised luminosity per unit wavelength [178 elements].
+  \item{Aspec}{
+  6 dimensional array containing (in order) dimension of \option{ct} (opening angle of torus in degrees); \option{al} (gamma dust parameter); \option{be} (beta dust parameter); \option{ta} (optical depth tau); \option{rm} (outer to inner torus radius ratio), and the final column is the normalised luminosity per unit wavelength [178 elements].
 }
 \item{params}{
   Character vector; order list of parameters in \option{Aspec} model array.
@@ -64,9 +63,6 @@ Each AGN model has been normalised so that the total luminosity fo the source AG
 \item{rm}{
   Numeric vector; available grid values of \option{rm}. Outer to inner torus radius ratio.
 }
-\item{an}{
-  Numeric vector; available grid values of \option{an}. Angle of observation in degrees, where 0 is edge on with torus, and 90 is polar aligned.
-}
 }
 }
 \source{
@@ -77,10 +73,10 @@ Feltre et al, 2012, MNRAS, 426, 120 \cr
 Fritz et al, 2006, MNRAS, 366, 767
 }
 \examples{
-data(Fritz)
-str(Fritz)
+data(Fritz_anav)
+str(Fritz_anav)
 
-plot(Fritz$Wave, Fritz$Aspec["100","4","-0.5","2","60","30",],
+plot(Fritz_anav$Wave, Fritz_anav$Aspec["100","4","-0.5","2","60",],
 type='l', log='xy', xlab='Wave / Ang', ylab='Lum / L/A')
 }
 \keyword{datasets}
