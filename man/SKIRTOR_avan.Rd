@@ -9,11 +9,11 @@ Stalevski et al, 2016, MNRAS, 458, 2288
 \usage{data("SKIRTOR_anav")}
 
 \description{
-  A data frame representing the SKIRTOR AGN template used for SED fitting, viewing angle averaged.
+  A list representing the SKIRTOR AGN template used for SED fitting, viewing angle averaged.
 }
 
 \format{
-A data frame containing the SKIRTOR model. The format is:
+A list containing the SKIRTOR model. The format is:
 
 \describe{
   \item{Wave}{Numeric vector; wavelengths in Angstroms.}
