@@ -16,7 +16,7 @@ A data frame representing the SKIRTOR AGN template used for SED fitting.
 A data frame containing the SKIRTOR model. The format is:
 
 \describe{
-  \item{Wave}{Numeric vector; wavelengths in microns.}
+  \item{Wave}{Numeric vector; wavelengths in Angstroms.}
   \item{Aspec}{Numeric array [1:5, 1:4, 1:4, 1:8, 1:3, 1:1, 1:10, 1:132]; the SED grid. Has named dimensions corresponding to model parameters.}
   \item{params}{Character vector of parameter names: \code{"ta"}, \code{"p"}, \code{"q"}, \code{"ct"}, \code{"rm"}, \code{"Mcl"}, \code{"an"}.}
   \item{ta}{Numeric scalar; Average edge-on optical depth at 9.7 micron.}
